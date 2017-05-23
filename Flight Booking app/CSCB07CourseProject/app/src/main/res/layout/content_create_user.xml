@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/content_create_user"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="cs.b07.cscb07courseproject.CreateUser"
+    tools:showIn="@layout/activity_create_user">
+
+
+
+    <EditText
+        android:id="@+id/first_name_field"
+        android:hint="@string/first_name"
+        android:inputType="textNoSuggestions"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/last_name_field"
+        android:hint="@string/last_name"
+        android:inputType="textNoSuggestions"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/email_field"
+        android:hint="@string/email"
+        android:inputType="textNoSuggestions"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/password_field"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/password_conf_field"
+        android:hint="Confirm password"
+        android:inputType="textPassword"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/address_field"
+        android:hint="@string/address"
+        android:inputType="textNoSuggestions"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/ccNumber_field"
+        android:hint="@string/ccNumber"
+        android:inputType="textNoSuggestions"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Expiry Date:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <DatePicker
+        android:layout_marginTop="-25dp"
+        android:layout_marginBottom="-25dp"
+        android:id="@+id/expiry_date_field"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:id="@+id/isAdmin"
+        android:hint="Admin Account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_text"
+        android:onClick="registerAccount"/>
+</LinearLayout>

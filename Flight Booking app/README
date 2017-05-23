@@ -1,0 +1,33 @@
+How to load files:
+1) Go to tools, Android, Android Device Monitor
+2) Go to File Explorer tab
+3) Go to data/data/cs.b07.cscb07courseproject
+4) Click on "files"
+5) Top right, click "Push a file onto this device"
+6) Choose the text files in loadFiles, push them all
+7) Close ADM and run the app
+8) Login as an admin, the following is the login info.
+	email:admin
+	password:password
+9) Type "clients.txt" in the EditField
+10) Click "LOAD CLIENT FILE"
+11) Type "flights1.txt" in the EditField
+12) Click "LOAD FLIGHT FILE"
+13) Repeat steps 11 to 12 for "flights2.txt" and "flights3.txt"
+
+NOTE:
+1) Using ADM to push/pull requies a VM with API 23 or lower
+2) If loading flights and clients do not work, go into layouts/content_admin_actions.xml, replace last two buttons with these:
+    <Button
+        android:id="@+id/upload_button_client"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/read_file_client"
+        android:onClick="loadFileJ"/>
+
+    <Button
+        android:id="@+id/upload_button_flight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/read_file_flight"
+        android:onClick="loadFlightFile"/>

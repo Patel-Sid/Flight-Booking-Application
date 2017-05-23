@@ -1,0 +1,52 @@
+Phase 3a Planning Meeting 1
+Date: Nov 23 @1pm
+Present: Everyone
+Outcome: We need to rewrite some of our back end in order to allow for objects to be stored as a file. We're going to start off with the log in screen and the registration screen.
+
+Responsibilities:
+    Brian: Modify back end to store/read objects as files
+    Jason: Registration screen
+    Richelle: Create skeleton for search page
+    Siddharth: Welcome and login screens
+
+Next Meeting: Status meeting Thursday afternoon. 
+
+Planning/Status Meeting
+Date: Nov 28 @3:40
+Present:Everyone
+Outcome: We're bad at time management. Came up with outline of activities that need to be completed. 
+
+Updates:
+	Jason: Added asterisks to password entry to hide password, added the seat limit to Flight
+	Brian: Changed code to remove Duration class, which wasn't working. Made it so data is saved and restored on app restart
+	Siddharth: Optimized code and read over Android documentation
+	Richelle: Read over Android documentation to get familiar with Android development.
+	
+
+Responsibilities:
+	Jason: Search Activities
+	Siddharth: User/Admin actions
+	Richelle: View stuff
+	Brian: Edit stuff
+	
+Next Meeting: Status meeting Tomorrow @ 3:30
+
+Status Meeting (Combined two meetings, since forgot to update)
+Date: Nov 29 and Nov 30
+Present: Everyone except Richelle 
+Outcome: Got most of the front end implementation over with, running into issues with Gregorian Calendar issues.
+
+Updates:
+Jason: 
+1) Desgned SearchFlights and SearchUsers. Finished coding SearchUsers 
+2) Finish coding SearchFlights, but need to be able ton uploadFlights in order to test. After testing, might still need to modify design for SearchFlights, like use a table.
+3) Need uploadFlights
+Brian:
+1) Added code to create default admin if needed. Finished editClient activity. Implemeneted Search/View/EditFlight activity, and added some back end methods to satisy new Flight req, modified AdminActions to allow admins to access User accounts
+2) Complete testing and implement editFlight Activity. Going to work on a createFlight acitivity for the adminActions next
+3) Need to upload flight to be working before I can test editFlight
+Siddharth:
+1) Added front end implementation for letting users upload a file with their information. Added method in LoginScreen
+2) Need to finish method for letting admins upload flight information. Find out a way to push and pull files so can get the upload files methods working. 
+3) Emulator not working for some reason, can't test without phone. 
+

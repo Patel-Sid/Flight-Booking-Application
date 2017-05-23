@@ -1,0 +1,218 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:2:1-92:12
+	package
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:6:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:7:5-71
+	android:name
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:7:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:8:5-72
+	android:name
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:8:22-69
+application
+ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:10:5-90:19
+MERGED from [com.android.support:design:25.0.1] C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.0.1] C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.0.1] C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.1] C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.1] C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.1] C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.1] C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.0.1] C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.1] C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:transition:25.0.1] C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:13:9-41
+	android:supportsRtl
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:14:9-35
+	android:allowBackup
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:11:9-35
+	android:icon
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:12:9-43
+	android:theme
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:15:9-40
+activity#cs.b07.cscb07courseproject.RegisterActivity
+ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:16:9-19:59
+	android:label
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:18:13-60
+	android:theme
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:19:13-56
+	android:name
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:17:13-45
+activity#cs.b07.cscb07courseproject.LoginScreen
+ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:20:9-29:20
+	android:label
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:22:13-64
+	android:theme
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:23:13-56
+	android:name
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:21:13-40
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:27:27-74
+activity#cs.b07.cscb07courseproject.UserActions
+ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:30:9-33:59
+	android:label
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:32:13-64
+	android:theme
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:33:13-56
+	android:name
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:31:13-40
+activity#cs.b07.cscb07courseproject.BookedFlights
+ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:34:9-37:59
+	android:label
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:36:13-66
+	android:theme
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:37:13-56
+	android:name
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:35:13-42
+activity#cs.b07.cscb07courseproject.SearchFlights
+ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:38:9-41:59
+	android:label
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:40:13-66
+	android:theme
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:41:13-56
+	android:name
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:39:13-42
+activity#cs.b07.cscb07courseproject.ViewItinerary
+ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:42:9-45:59
+	android:label
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:44:13-66
+	android:theme
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:45:13-56
+	android:name
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:43:13-42
+activity#cs.b07.cscb07courseproject.AdminActions
+ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:46:9-49:59
+	android:label
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:48:13-65
+	android:theme
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:49:13-56
+	android:name
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:47:13-41
+activity#cs.b07.cscb07courseproject.SearchUsers
+ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:50:9-53:59
+	android:label
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:52:13-64
+	android:theme
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:53:13-56
+	android:name
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:51:13-40
+activity#cs.b07.cscb07courseproject.ClientEditInfo
+ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:54:9-57:59
+	android:label
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:56:13-68
+	android:theme
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:57:13-56
+	android:name
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:55:13-43
+activity#cs.b07.cscb07courseproject.EditFlightInfo
+ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:58:9-61:59
+	android:label
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:60:13-68
+	android:theme
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:61:13-56
+	android:name
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:59:13-43
+activity#cs.b07.cscb07courseproject.SearchItinerary
+ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:62:9-65:59
+	android:label
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:64:13-68
+	android:theme
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:65:13-56
+	android:name
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:63:13-44
+activity#cs.b07.cscb07courseproject.DisplaySearchFlights
+ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:66:9-69:59
+	android:label
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:68:13-74
+	android:theme
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:69:13-56
+	android:name
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:67:13-49
+activity#cs.b07.cscb07courseproject.UpdatePassword
+ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:70:9-73:59
+	android:label
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:72:13-67
+	android:theme
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:73:13-56
+	android:name
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:71:13-43
+activity#cs.b07.cscb07courseproject.ListViewPopulating
+ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:74:9-77:59
+	android:label
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:76:13-72
+	android:theme
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:77:13-56
+	android:name
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:75:13-47
+activity#cs.b07.cscb07courseproject.CreateFlight
+ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:78:9-81:59
+	android:label
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:80:13-65
+	android:theme
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:81:13-56
+	android:name
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:79:13-41
+activity#cs.b07.cscb07courseproject.ItinerariesPopulate
+ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:82:9-85:59
+	android:label
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:84:13-46
+	android:theme
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:85:13-56
+	android:name
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:83:13-48
+activity#cs.b07.cscb07courseproject.CreateUser
+ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:86:9-89:68
+	android:label
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:88:13-63
+	android:theme
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:89:13-56
+	android:name
+		ADDED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml:87:13-39
+uses-sdk
+INJECTED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.0.1] C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:support-v4:25.0.1] C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-compat:25.0.1] C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.0.1] C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.0.1] C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.0.1] C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:25.0.1] C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:appcompat-v7:25.0.1] C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-vector-drawable:25.0.1] C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:25.0.1] C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.0.1] C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\AndroidManifest.xml:20:5-44
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.0.1] C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\siddh\team_08\p3b\CSCB07CourseProject\app\src\main\AndroidManifest.xml

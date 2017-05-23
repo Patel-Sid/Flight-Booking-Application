@@ -1,0 +1,19 @@
+We will store database within the classes ClientDatabase and FlightDatabase. Both of these databases are initialized at the start of the program in the Constants class. In order to obtain information from them, a User must use the upload Button to upload all their information or they can manually register. Furthermore, an admin can use the upload Button to upload all the information about flights. 
+
+ClientDatabase stores all the User's information. It contains the all the Users. When a User uses uploadClientInfo he creates all the User objects and stores them in the ClientDatabase. When a User is created and when they are required to register all their information, including password, all of that will be stores in the ClientDatabase. 
+Also when the User leaves the app all the information is saved onto the txt file and only if the User decides to uninstall the app then the data file will be deleted. 
+
+FlightDatabase stores all the Flight's information. It contains all the Flights that are created when a User uses uploadFlightInfo. Just like all the information about the Users is stored in a txt file, all the information about the Flights are also saved in a txt file. 
+All of the txt files will be saved in the following directory: data/data/CSCB07CourseProject
+
+
+Since now we are working with Android Studio, out of the two available options that we have, we decided to use internal storage instead of external due to the following reasons: 
+1) It's always available for use 
+2) No other app can have access to it so it's more secure than external storage 
+3)It also maintains a User's privacy settings, as it deletes all data once the app has been uninstalled
+
+Also in order to upload or download the clients and the flights files, we are using Android Device Monitor's push and pull for transferring files into and out of the app's internal storage.
+
+
+
+

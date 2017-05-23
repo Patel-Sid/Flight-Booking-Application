@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cs.b07.cscb07courseproject">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginScreen"
+            android:label="Planes(B07)"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UserActions"
+            android:label="@string/title_activity_user_actions"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookedFlights"
+            android:label="@string/title_activity_booked_flights"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SearchFlights"
+            android:label="@string/title_activity_search_flights"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewItinerary"
+            android:label="@string/title_activity_view_itinerary"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminActions"
+            android:label="@string/title_activity_admin_actions"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SearchUsers"
+            android:label="@string/title_activity_search_users"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ClientEditInfo"
+            android:label="@string/title_activity_client_edit_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditFlightInfo"
+            android:label="@string/title_activity_edit_flight_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SearchItinerary"
+            android:label="@string/title_activity_search_itinerary"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DisplaySearchFlights"
+            android:label="@string/title_activity_display_search_flights"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UpdatePassword"
+            android:label="@string/title_activity_update_password"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListViewPopulating"
+            android:label="@string/title_activity_list_view_populating"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CreateFlight"
+            android:label="@string/title_activity_create_flight"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ItinerariesPopulate"
+            android:label="@string/title_Iti"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CreateUser"
+            android:label="@string/title_activity_create_user"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

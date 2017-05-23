@@ -1,0 +1,7 @@
+#Thu Dec 01 21:25:58 EST 2016
+base.0=C\:\\Users\\siddh\\team_08\\p3b\\CSCB07CourseProject\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_97e88ab258c9dc1b356ef64177584b9255ec6fc2
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\siddh\\team_08\\p3b\\CSCB07CourseProject\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_69206bf36257f3b33771dd47bc94ae1f395799b7\\classes.dex
+base.1=C\:\\Users\\siddh\\team_08\\p3b\\CSCB07CourseProject\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_69206bf36257f3b33771dd47bc94ae1f395799b7
+file.0=C\:\\Users\\siddh\\team_08\\p3b\\CSCB07CourseProject\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_97e88ab258c9dc1b356ef64177584b9255ec6fc2\\classes.dex

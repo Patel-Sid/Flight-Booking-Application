@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">CSCB07CourseProject</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="address">Address</string>
+    <string name="ccNumber">ccNumber</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="submit_text">Submit</string>
+    <string name="newly_registered">Newly Registered</string>
+    <string name="register_user">Register User</string>
+    <string name="login">Login</string>
+    <string name="submit_button">Submit</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="student_number">Student Number</string>
+    <string name="confirmation">is registered</string>
+    <string name="read_file_client">Load Client File</string>
+    <string name="read_file_flight">Load Flight File</string>
+    <string name="file_name">Name of File to Load</string>
+    <string name="choose_file">Or choose a file to load:</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_login_screen">LoginScreen</string>
+    <string name="title_activity_user_actions">UserActions</string>
+    <string name="title_activity_booked_flights">BookedFlights</string>
+    <string name="title_activity_search_flights">SearchFlights</string>
+    <string name="title_activity_view_itinerary">ViewItinerary</string>
+    <string name="title_activity_admin_actions">AdminActions</string>
+    <string name="title_activity_edit_info">EditInfo</string>
+    <string name="title_activity_search_users">SearchUsers</string>
+    <string name="title_activity_client_edit_info">ClientEditInfo</string>
+    <string name="title_activity_edit_flight_info">EditFlightInfo</string>
+    <string name="title_activity_search_itinerary">SearchItinerary</string>
+    <string name="title_activity_itineraries_populate">ItinerariesPopulate</string>
+    <string name="title_Iti">ItinerariesPopulate</string>
+
+
+    <string name="departure_date">Departure Date</string>
+    <string name="origin">Origin City</string>
+    <string name="destination">Destination City</string>
+    <string name="date_format">yyyy-MM-dd</string>
+    <string name="date_time_format">yyyy-MM-dd HH:mm</string>
+    <string name="search_button">Search</string>
+    <string name="title_activity_display_search_flights">DisplaySearchFlights</string>
+    <string name="sort_travel">Sort Travel</string>
+    <string name="sort_cost">Sort Cost</string>
+    <string name="sort_order">Sort Order</string>
+    <string name="unsorted">Unsorted</string>
+    <string name="book_flight">Book</string>
+    <string name="view_booked_flights">View Booked Flights</string>
+    <string name = "book_itin">Book</string>
+    <string name="search_itin">Search Itineraries</string>
+
+
+    <string name="clientField_prompt">Select entry to edit</string>
+    <string-array name="clientField_select">
+        <item>Select field to edit</item>
+        <item>Password</item>
+        <item>First Name</item>
+        <item>Last Name</item>
+        <item>Address</item>
+        <item>Credit Card</item>
+    </string-array>
+    <string name="title_activity_update_password">UpdatePassword</string>
+    <string-array name="flightField_select">
+        <item>Select field to edit</item>
+        <item>Airline</item>
+        <item>Origin City</item>
+        <item>Destination City</item>
+        <item>Departure Time</item>
+        <item>Arrival Time</item>
+        <item>Flight Cost</item>
+        <item>Number of Seats</item>
+    </string-array>
+    <string name="title_activity_list_view_loader">ListViewLoader</string>
+    <string name="title_activity_list_view_populating">ListViewPopulating</string>
+    <string name="title_activity_create_flight">CreateFlight</string>
+    <string name="title_activity_create_user">CreateUser</string>
+</resources>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_edit_flight_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="cs.b07.cscb07courseproject.EditFlightInfo"
+    tools:showIn="@layout/activity_edit_flight_info">
+<ScrollView android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/flight_num_entry"
+            android:hint="Enter Flight Number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/search_flights"
+            android:hint="Search Flights"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="displaySearchFlights"/>
+
+        <TableLayout
+            android:id="@+id/flightInfoTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Flight Number"
+                    android:background="@drawable/cell_shape"
+                    android:padding="3dip" />
+                <TextView
+                    android:background="@drawable/cell_shape"
+                    android:id="@+id/flightNum"
+                    android:padding="3dip"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Airline"
+                    android:background="@drawable/cell_shape"
+                    android:padding="3dip" />
+                <TextView
+                    android:background="@drawable/cell_shape"
+                    android:id="@+id/airline"
+                    android:padding="3dip"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Origin"
+                    android:background="@drawable/cell_shape"
+                    android:padding="3dip" />
+                <TextView
+                    android:background="@drawable/cell_shape"
+                    android:id="@+id/originCity"
+                    android:padding="3dip"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Destination"
+                    android:background="@drawable/cell_shape"
+                    android:padding="3dip" />
+                <TextView
+                    android:background="@drawable/cell_shape"
+                    android:id="@+id/destinationCity"
+                    android:padding="3dip"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:background="@drawable/cell_shape"
+                    android:text="Departure Time"
+                    android:padding="3dip" />
+                <TextView
+                    android:background="@drawable/cell_shape"
+                    android:id="@+id/departureTime"
+                    android:padding="3dip"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:background="@drawable/cell_shape"
+                    android:text="Arrival Time"
+                    android:padding="3dip" />
+                <TextView
+                    android:background="@drawable/cell_shape"
+                    android:id="@+id/arrivalTime"
+                    android:padding="3dip"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:background="@drawable/cell_shape"
+                    android:text="Flight Cost"
+                    android:padding="3dip" />
+                <TextView
+                    android:background="@drawable/cell_shape"
+                    android:id="@+id/flightCost"
+                    android:padding="3dip"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:background="@drawable/cell_shape"
+                    android:text="Seat Availability"
+                    android:padding="3dip" />
+                <TextView
+                    android:background="@drawable/cell_shape"
+                    android:id="@+id/seatAvailability"
+                    android:padding="3dip"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/flightModify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/field_select"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/new_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <DatePicker
+                android:id="@+id/date_picker"
+                android:calendarViewShown="false"
+                android:datePickerMode="spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-40dp"
+                android:layout_marginRight="-40dp"
+                android:scaleY="0.70"
+                android:scaleX="0.70"></DatePicker>
+            <TimePicker
+                android:id="@+id/time_picker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:timePickerMode="spinner"
+                android:layout_marginLeft="-40dp"
+                android:layout_marginRight="-40dp"
+                android:scaleY="0.70"
+                android:scaleX="0.70"></TimePicker>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm"
+            android:onClick="editInfo"/>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+</LinearLayout>

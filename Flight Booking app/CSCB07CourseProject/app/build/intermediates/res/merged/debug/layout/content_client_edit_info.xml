@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/content_user_actions"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    tools:context="cs.b07.cscb07courseproject.ClientEditInfo"
+    tools:showIn="@layout/activity_client_edit_info">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Info:"
+        android:textSize="16dp"/>
+
+    <TableLayout
+        android:id="@+id/clientInfoTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="Email"
+                android:background="@drawable/cell_shape"
+                android:padding="3dip" />
+            <TextView
+                android:background="@drawable/cell_shape"
+                android:id="@+id/clientUser"
+                android:padding="3dip"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:background="@drawable/cell_shape"
+                android:text="First Name"
+                android:padding="3dip" />
+            <TextView
+                android:background="@drawable/cell_shape"
+                android:id="@+id/clientFirstName"
+                android:padding="3dip"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:background="@drawable/cell_shape"
+                android:text="Last Name"
+                android:padding="3dip" />
+            <TextView
+                android:background="@drawable/cell_shape"
+                android:id="@+id/clientLastName"
+                android:padding="3dip"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="Address"
+                android:background="@drawable/cell_shape"
+                android:padding="3dip" />
+            <TextView
+                android:background="@drawable/cell_shape"
+                android:id="@+id/clientAddress"
+                android:padding="3dip"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:background="@drawable/cell_shape"
+                android:text="Credit Card"
+                android:padding="3dip" />
+            <TextView
+                android:background="@drawable/cell_shape"
+                android:id="@+id/clientCreditCard"
+                android:padding="3dip"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="Expiry Date"
+                android:background="@drawable/cell_shape"
+                android:padding="3dip" />
+            <TextView
+                android:background="@drawable/cell_shape"
+                android:id="@+id/clientExpiryDate"
+                android:padding="3dip"/>
+        </TableRow>
+    </TableLayout>
+
+    <Spinner
+        android:id="@+id/field_select"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/new_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/confirm_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <DatePicker
+        android:id="@+id/date_picker"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></DatePicker>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:onClick="editInfo"/>
+
+</LinearLayout>

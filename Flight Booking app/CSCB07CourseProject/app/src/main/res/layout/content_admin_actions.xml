@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/content_user_actions"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="cs.b07.cscb07courseproject.AdminActions"
+    tools:showIn="@layout/activity_admin_actions">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="55dp" />
+    <TextView
+        android:id="@+id/welcome_name_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search Users"
+        android:onClick="goSearchUsers"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Flights"
+        android:onClick="goEditFlights"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Flight"
+        android:onClick="goCreateFlight"/>
+    <EditText
+        android:id="@+id/file_name"
+        android:inputType="text"
+        android:hint="@string/file_name"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+
+    <Button
+        android:id="@+id/upload_button_client"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/read_file_client"
+        android:onClick="loadFileClients"/>
+
+    <Button
+        android:id="@+id/upload_button_flight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/read_file_flight"
+        android:onClick="loadFileFlights"/>
+</LinearLayout>
